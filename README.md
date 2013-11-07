@@ -8,8 +8,9 @@ How to use it?
 
 * git clone https://github.com/filippo91/lfs_ldap.git
 * cd lfs_ldap
-* python bootstrap.py
 * virtualenv --no-site-packages . 
+* bin/pip install --upgrade setuptools
+* bin/python bootstrap.py
 * bin/buildout -v 
 * Enter your database settings to lfs_project/settings.py 
 * bin/django syncdb
